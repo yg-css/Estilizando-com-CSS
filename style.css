@@ -1,5 +1,37 @@
 #caixatexto{
-width: 80%;
-height: 80%;
-    background-color: white;
+width: 900px;
+height: 450px;
+background-color: white;
+border-radius: 2%;
+border: 4px solid #06FAFA;
+}
+
+#texto{
+    color: #06FAFA;
+    text-align: center;
+}
+
+#textosobremim{
+    color:  #00008B;
+    text-align: center;
+}
+
+#titulo{
+    color: white;
+    text-align: center;
+}
+
+#body{
+    background-color: #011724;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profile{
+    height: 270px;
+    width: 270px;
+    margin-left: 310px;
+    border-radius: 50%;
+    margin-top: 10px;
 }
